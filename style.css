@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&family=Special+Elite&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    background: url(/images/pattern-background-desktop.svg)  ;
+    background-color: var(--Paleblue);
+    background-repeat: repeat-x;
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+:root{
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+}
+
+.attribution{
+    font-size: 11px; 
+    text-align: center;
+    font-family: 'Outfit', sans-serif; 
+    padding: 12px;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.card{
+    max-width: 250px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.card img{
+    width:100% ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+h1{
+    font-size: 16px;
+    text-align: center;
+    color: var(--Darkblue);
+    padding: 15px;
+    font-weight: 900;
+}
+
+.hero-text{
+    font-size: 12px;
+    text-align: center;
+    color: var(--Desaturatedblue);
+    padding-bottom: 10px;
+}
+
+.container{
+    
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Verypaleblue);
+    border-radius: 12px;
+    font-size: 10px;
+    margin:0 20px;   
+}
+
+.container img{
+    width: 2rem;
+    padding-right: 5px;
+}
+
+.plan{
+    color: var(--Darkblue);
+    font-weight: 700;
+}
+
+p{
+    color:var(--Desaturatedblue)
+}
+
+.change a{
+    color:var(--Brightblue);
+    padding-left: 30px;
+}
+
+.change a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pay {
+    padding: 20px;
+    text-align: center;
+    font-size: 8px;
+}
+
+.pay a{
+    text-decoration: none;
+    background-color: var(--Brightblue);
+    color: white;
+    padding: 8px 60px; 
+    border-radius: 5px;  
+    box-shadow: 1px 10px 5px hsla(245, 75%, 52%, 0.082) ;  
+}
+
+.pay a:hover{
+    cursor: pointer;
+    background-color: hsl(224, 41%, 59%);
+}
+
+.cancel {
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 10px;  
+}
+.cancel a{
+    text-decoration: none;
+    color: var(--Desaturatedblue);
+}
+
+.cancel a:hover{
+    cursor: pointer;
+    color: var(--Darkblue);
+}
